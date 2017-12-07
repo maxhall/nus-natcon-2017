@@ -118,7 +118,7 @@ window.app.on('sendTheHeight', event => {
 });
 
 // When any new data is received it's passed down the component chain
-const socket = io('reps-elect-2017.herokuapp.com');
+const socket = io('nus-natcon-2017.herokuapp.com');
 
 socket.on('data', function(data){
 	window.app.set({'hasConnection': true});
